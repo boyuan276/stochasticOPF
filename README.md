@@ -4,6 +4,8 @@
 
 Optimal Power Flow under uncertain renewable generation and flexible demand.
 
+This is a course project for CHEME 6800 at Cornell University.
+
 ### Built with
 
 * [Pyomo](http://www.pyomo.org/)
@@ -11,7 +13,9 @@ Optimal Power Flow under uncertain renewable generation and flexible demand.
 
 ## Usage
 
-Run SOPF with DR.ipynb.
+* To run stochastic OPF for the IEEE 9-bus test system, use *SOPF_with_DR.ipynb*.
+* To run stochastic OPF for the IEEE 39-bus test system, use *SOPF_with_DR_case39.ipynb*.
+* To do post processing for the test cases, use *post_processing.ipynb* and *post_processing_with_DR_case39.ipynb*.
 
 ## License
 
